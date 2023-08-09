@@ -1,7 +1,17 @@
-import express from 'express'
+import express from 'express';
 
-const app = express()
+import routes from './routes/routes'
+import { errorMiddleware } from './middlewares/errorMiddleware';
 
-app.use(express.json());
+const app: express.Express = express()
 
-app.listen(3000, () => console.log('listening 3000 port'))
+app.use(express.json())
+
+app.use(routes)
+
+app.use(errorMiddleware)
+
+app.listen(3000, () => console.log('Running on port 3000'))
+
+
+export default app;
