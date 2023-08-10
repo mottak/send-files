@@ -27,7 +27,7 @@ npm install
 Start the server:
 
 ```bash
-npm start
+npm run dev
 ```
 
 The backend server will start running on port 3000.
@@ -40,7 +40,7 @@ This endpoint accepts a CSV file upload from the frontend and stores the data in
 Search through the loaded CSV data. This route accepts a q query parameter for search terms. The search is case-insensitive and searches through every column of the CSV for partial matches.
 
 ## Testing
-Automated tests have been included in the codebase to ensure that the implemented routes match the requirements specified. To run the tests, you can use the following command:
+Integration tests have been included in the codebase to ensure that the implemented routes match the requirements specified. To run the tests, you can use the following command:
 
 ```bash
 npm test
