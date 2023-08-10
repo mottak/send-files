@@ -15,20 +15,21 @@ Handle errors for invalid requests and other issues.
 ### Installation
 Clone the repository:
 
-bash```
+```bash
 git clone https://github.com/mottak/shawandpartners-backend-test.git
 cd shawandpartners-backend-test
 ```
 Install dependencies:
 
-bash``````
+```bash
 npm install
-``````
+```
 Start the server:
 
-bash```
+```bash
 npm start
-``````
+```
+
 The backend server will start running on port 3000.
 
 ## API Endpoints
@@ -41,6 +42,6 @@ Search through the loaded CSV data. This route accepts a q query parameter for s
 ## Testing
 Automated tests have been included in the codebase to ensure that the implemented routes match the requirements specified. To run the tests, you can use the following command:
 
-bash```
+```bash
 npm test
 ```

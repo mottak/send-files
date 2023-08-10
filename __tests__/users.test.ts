@@ -36,12 +36,5 @@ describe('Search term in csv file', () => {
       'Mock CSV Content'
     ])
   })
-  // it('should thow a Error if try to access without send a file', async () => {
-  //   const res = await chai
-  //     .request(app)
-  //     .post('/api/files')
 
-  //     expect(res).to.have.status(404)
-  //     expect(res.body).have.property('message')
-  // })
 })
