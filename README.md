@@ -16,8 +16,8 @@ Handle errors for invalid requests and other issues.
 Clone the repository:
 
 ```bash
-git clone https://github.com/mottak/shawandpartners-backend-test.git
-cd shawandpartners-backend-test
+git clone git@github.com:mottak/send-files.git
+cd send-files
 ```
 Install dependencies:
 
